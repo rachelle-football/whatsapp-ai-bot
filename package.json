@@ -1,0 +1,18 @@
+{
+  "name": "reseller-ledger-whatsapp-bot",
+  "version": "1.0.0",
+  "description": "AI auto-reply bot for WhatsApp Business (Meta Cloud API) that walks customers through internet troubleshooting and opens a ticket in the Reseller Ledger app when it can't solve the issue.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "firebase-admin": "^12.7.0"
+  }
+}
