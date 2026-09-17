@@ -5,9 +5,9 @@
 
 require("dotenv").config();
 const express = require("express");
-const whatsapp = require("./lib/whatsapp");
-const ai = require("./lib/ai");
-const store = require("./lib/firestore");
+const whatsapp = require("./whatsapp");
+const ai = require("./ai");
+const store = require("./firestore");
 
 const app = express();
 
